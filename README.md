@@ -34,8 +34,7 @@ pip install pandas openpyxl
 - ├── data.xlsx              # Excel file with contacts
 - ├── Documentation.pdf
 - ├── Novelty.pdf
-- ├── Future_Scope.pdf
-- └── README.md
+- └── Future_scope.pdf
 
 ---
 
