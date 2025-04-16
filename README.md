@@ -61,4 +61,24 @@ Prepare Your Excel File
 `python email_automation.py` 
 - Each contact will receive a personalized email message.
 
+---
 
+# 🔒 Security Best Practices
+Do not commit your credentials to version control.
+
+Use .env files or environment variables to store sensitive data.
+
+For production, consider using OAuth2 with Gmail API instead of SMTP login.
+
+🚀 Future Scope
+HTML email templates for richer designs
+
+Support for attachments (PDFs, images, etc.)
+
+Scheduled email sending (via cron or apscheduler)
+
+Integration with Google Sheets API
+
+GUI using Tkinter, Flask, or Streamlit
+
+Email analytics (open/click tracking)
