@@ -38,3 +38,27 @@ pip install pandas openpyxl
 - └── README.md
 
 ---
+
+## 📋 How to Use
+Prepare Your Excel File
+
+1. Make sure data.xlsx has the following columns:
+
+
+- `Full name`	`Email Address`
+- `John Doe`	`john@example.com`
+- `Jane Smith`	`jane@example.com`
+
+## Update Email Credentials
+
+- In `email_automation.py`, set your Gmail address and app password:
+  - `FROM` = `'your-email@gmail.com'`
+  - `PASS` = `'your-app-password'`
+### ⚠️ Important: Use App Passwords instead of your regular Gmail password.
+
+## Run the Script
+
+`python email_automation.py` 
+- Each contact will receive a personalized email message.
+
+
