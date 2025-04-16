@@ -80,6 +80,6 @@ Prepare Your Excel File
 
 - Integration with Google Sheets API
 
-GUI using Tkinter, Flask, or Streamlit
+- GUI using Tkinter, Flask, or Streamlit
 
-Email analytics (open/click tracking)
+- Email analytics (open/click tracking)
