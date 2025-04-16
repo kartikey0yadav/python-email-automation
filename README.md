@@ -28,12 +28,13 @@ Install dependencies with:
 ```bash
 pip install pandas openpyxl
 ```
-## 📁 Email-Automation/
--├── email_automation.py
--├── data.xlsx              # Excel file with contacts
--├── Documentation.pdf
--├── Novelty.pdf
--├── Future_Scope.pdf
--└── README.md
+## 📁 Email-Automation
+
+- ├── email_automation.py
+- ├── data.xlsx              # Excel file with contacts
+- ├── Documentation.pdf
+- ├── Novelty.pdf
+- ├── Future_Scope.pdf
+- └── README.md
 
 ---
