@@ -63,21 +63,22 @@ Prepare Your Excel File
 
 ---
 
-# 🔒 Security Best Practices
-Do not commit your credentials to version control.
+## 🔒 Security Best Practices
 
-Use .env files or environment variables to store sensitive data.
+- Do not commit your credentials to version control.
 
-For production, consider using OAuth2 with Gmail API instead of SMTP login.
+- Use `.env` files or environment variables to store sensitive data.
 
-🚀 Future Scope
-HTML email templates for richer designs
+- For production, consider using OAuth2 with Gmail API instead of SMTP login.
 
-Support for attachments (PDFs, images, etc.)
+## 🚀 Future Scope
+- HTML email templates for richer designs
 
-Scheduled email sending (via cron or apscheduler)
+- Support for attachments (PDFs, images, etc.)
 
-Integration with Google Sheets API
+- Scheduled email sending (via cron or apscheduler)
+
+- Integration with Google Sheets API
 
 GUI using Tkinter, Flask, or Streamlit
 
