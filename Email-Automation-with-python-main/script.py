@@ -38,12 +38,9 @@ print(emails)
 # email composing
 print('Composing Email................')
 # creating a message body
-msg = MIMEMultipart()
+# msg = MIMEMultipart()
 
-msg['Subject'] = 'Testing purpose'
-msg['From'] = FROM
 
-print('email body settings...............')
 
 # iterate through the records
 for i in range(len(emails)):
@@ -53,7 +50,11 @@ for i in range(len(emails)):
     email = emails[i]
   
     # the message to be emailed
-    message = 'Greetings,  \n \nI am kartikey this is testing for my code.\n \nsorry for inconvinience \n\nRegards'
+    message = f"Greetings,  \n \nI am kartikey this is testing for my code.\n \nsorry for inconvinience \n\nRegards"
+    msg = MIMEMultipart()
+    msg['Subject'] = 'Testing purpose'
+    msg['From'] = FROM
+    print('email body settings...............')
     msg.attach(MIMEText(message, 'plain'))
 
     # sending the email
